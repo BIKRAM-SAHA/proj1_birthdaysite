@@ -1,0 +1,110 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: url('../images/space-background.png');
+  font-family: 'Open Sans', arial, sans-serif;
+  /* full page background recipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment:fixed;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  background: #DDD;
+}
+
+/* 
+image styles
+*/
+img.hero {
+  width: 100%;
+}
+.bubble-bottle {
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.unicorn {
+  float: right;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-block-end: 20px;
+}
+
+/* 
+section styles
+ */
+
+section.intro, section.contact{
+  padding: 40px;
+}
+
+section.intro {
+  background: #FFF;
+}
+
+
+
+/* 
+map
+ */
+
+ .map iframe{
+  width: 100%;
+ }

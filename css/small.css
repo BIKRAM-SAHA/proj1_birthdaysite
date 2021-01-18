@@ -1,0 +1,18 @@
+
+.container {
+    width:100%;
+    margin: 0px auto;
+    background: #DDD;
+  }
+.bubble-bottle {
+    text-align: center;
+    float: inherit;
+}
+.unicorn {
+    text-align: center;
+    float: inherit;
+}
+section.intro {
+    background: #FFF;
+  }
+  
